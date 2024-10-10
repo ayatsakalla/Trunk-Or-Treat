@@ -2,6 +2,17 @@ body {
     background-color: black;
 }
 
+/* fonts start */
+@font-face {
+    font-family: 'magnificent';
+    src: url('/fonts/Magnificent\ Serif.ttf');
+}
+
+.magnificent {
+    font-family: 'magnificent';
+}
+/* fonts end */
+
 /* nav styling start */
 
 /* nav spiderweb icon */
