@@ -32,18 +32,21 @@ body {
 /* neon title styling start*/
 .neon {
     font-weight: 400;
+    font-size: 5.5vw;
     color: #fff;
     text-shadow: 
     0 0 5px #fff,
     0 0 10px #fff,
     0 0 20px #fff,
-    0 0 40px #0ff,
-    0 0 80px #0ff,
-    0 0 90px #0ff,
-    0 0 90px #0ff,
-    0 0 100px #0ff,
-    0 0 150px #0ff;
+    0 0 40px #512888,
+    0 0 80px #512888,
+    0 0 90px #512888,
+    0 0 90px #512888,
+    0 0 100px #512888,
+    0 0 150px #512888;
 }
+
+/* EB6123 512888*/
 
 .neon span {
     animation: flicker 2030ms linear infinite;
@@ -74,3 +77,138 @@ body {
     100%{opacity: 1;}
 }
 /* neon title styling end */
+
+/* ghost start */
+
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+#spooky {
+    animation: floaty 2s infinite;
+}
+
+#spooky #body {
+    position: relative;
+    width: 180px;
+    height: 220px;
+    background-color: whitesmoke;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+}
+
+#spooky #body:before,
+#spooky #body:after {
+    content: ' ';
+    position: absolute;
+    top: 130px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: whitesmoke;
+    animation: floaty .2s infinite;
+}
+
+#spooky #body:before {
+    left: -18px;
+}
+
+#spooky #body:after {
+    right: -18px;
+}
+
+#spooky #body #eyes {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 90px 0 0;
+    width: 167px;
+    height: 20px;
+}
+
+#spooky #body #eyes:before,
+#spooky #body #eyes:after {
+    content: '  ';
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: black;
+    border-radius: 50%;
+}
+
+#spooky #body #mouth {
+    background: black;
+    margin: 25px auto 0;
+    width: 60px;
+    height: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+}
+
+#spooky #body #mouth:before {
+    content: '  ';
+    display: block;
+    background: whitesmoke;
+    margin-left: 14px;
+    width: 10px;
+    height: 10px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+#spooky #body #mouth:after {
+    content: '  ';
+    display: block;
+    background: whitesmoke;
+    margin-left: 13px;
+    width: 10px;
+    height: 10px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+#spooky #body #feet {
+    position: absolute;
+    display: flex;
+    bottom: -18px;
+    width: 180px;
+    height: 36px;
+}
+
+#spooky #body #feet>*,
+#spooky #body #feet::before,
+#spooky #body #feet::after {
+    content: ' ';
+    width: 36px;
+    height: 36px;
+    background: whitesmoke;
+    border-radius: 50%;
+}
+
+@keyframes floaty {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes zoomy {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.8);
+    }
+}
+/* ghost end */
