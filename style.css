@@ -28,3 +28,49 @@ body {
     z-index: 2;
 }
 /* nav styling end */
+
+/* neon title styling start*/
+.neon {
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
+
+.neon span {
+    animation: flicker 2030ms linear infinite;
+}
+
+.neon .delay1 {
+    animation-delay: 0.3s;
+}
+
+.neon .delay2 {
+    animation-delay: 0.7s;
+}
+
+.neon .delay3 {
+    animation-delay: 1.2s;
+}
+
+.neon .delay4 {
+    animation-delay: 1.7s;
+}
+
+@keyframes flicker {
+    0%{opacity: 0.2;}
+    20%{opacity: 1;}
+    50%{opacity: 0.2;}
+    60%{opacity: 1;}
+    70%{opacity: 0.2;}
+    100%{opacity: 1;}
+}
+/* neon title styling end */
