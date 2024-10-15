@@ -27,6 +27,16 @@ body {
 .nav-title {
     z-index: 2;
 }
+
+/* hover affect start */
+.spiderwebby:hover {
+    background-image: url("nav/pumpkin.png");
+    background-position: center;
+    background-size: contain;
+    width: fit-content;
+    background-repeat: no-repeat;
+}
+/* hover affect end */
 /* nav styling end */
 
 /* neon title styling start*/
@@ -47,34 +57,48 @@ body {
 }
 
 /* EB6123 512888*/
-
 .neon span {
-    animation: flicker 2030ms linear infinite;
+    animation: flicker 1000ms linear infinite;
+    /* Base animation */
 }
 
+/* Add delays for each span */
 .neon .delay1 {
-    animation-delay: 0.3s;
+    animation-delay: 1.3s;
 }
 
 .neon .delay2 {
-    animation-delay: 0.7s;
-}
-
-.neon .delay3 {
-    animation-delay: 1.2s;
-}
-
-.neon .delay4 {
     animation-delay: 1.7s;
 }
 
+.neon .delay3 {
+    animation-delay: 0.8s;
+}
+
 @keyframes flicker {
-    0%{opacity: 0.2;}
-    20%{opacity: 1;}
-    30%{opacity: 0.2;}
-    60%{opacity: 1;}
-    70%{opacity: 0.2;}
-    100%{opacity: 1;}
+    0% {
+        opacity: 0.1;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: 0.2;
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 0.4;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 /* neon title styling end */
 
