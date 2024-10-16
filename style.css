@@ -29,6 +29,7 @@ body {
     z-index: 2;
 }
 
+<<<<<<< HEAD
 .menu {
     background-color: transparent;
     border: none;
@@ -78,6 +79,17 @@ body {
     stroke-width: 6;
 }
 
+=======
+/* hover affect start */
+.spiderwebby:hover {
+    background-image: url("nav/pumpkin.png");
+    background-position: center;
+    background-size: contain;
+    width: fit-content;
+    background-repeat: no-repeat;
+}
+/* hover affect end */
+>>>>>>> a64a73d40dc9afb73e6ac7db6f1a7081ab8be13c
 /* nav styling end */
 
 /* neon title styling start*/
@@ -98,30 +110,31 @@ body {
 }
 
 /* EB6123 512888*/
-
 .neon span {
-    animation: flicker 2030ms linear infinite;
+    animation: flicker 1000ms linear infinite;
+    /* Base animation */
 }
 
+/* Add delays for each span */
 .neon .delay1 {
-    animation-delay: 0.3s;
+    animation-delay: 1.3s;
 }
 
 .neon .delay2 {
-    animation-delay: 0.7s;
+    animation-delay: 1.7s;
 }
 
 .neon .delay3 {
-    animation-delay: 1.2s;
-}
-
-.neon .delay4 {
-    animation-delay: 1.7s;
+    animation-delay: 0.8s;
 }
 
 @keyframes flicker {
     0% {
+<<<<<<< HEAD
         opacity: 0.2;
+=======
+        opacity: 0.1;
+>>>>>>> a64a73d40dc9afb73e6ac7db6f1a7081ab8be13c
     }
 
     20% {
@@ -137,7 +150,11 @@ body {
     }
 
     70% {
+<<<<<<< HEAD
         opacity: 0.2;
+=======
+        opacity: 0.4;
+>>>>>>> a64a73d40dc9afb73e6ac7db6f1a7081ab8be13c
     }
 
     100% {
