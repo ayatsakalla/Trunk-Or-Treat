@@ -25,19 +25,19 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <!-- navbar icon on the left -->
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" id="topOfPage">
                 <img src="nav/spiderweb-edit-blackbg.png" alt="Logo"
                     class="d-inline-block align-text-top img-fluid nav-icon">
             </a>
 
-            <a class="text-white nav-title navbar-brand magnificent" href="#">TRUNK OR
+            <a class="nav-title navbar-brand magnificent spiderwebby" href="#topOfPage">TRUNK OR
                 TREAT</a>
 
             <!-- collapsed items -->
             <div class="justify-content-end text-center" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link text-white magnificent spiderwebby" href="#">EVENT INFO</a>
-                    <a class="nav-link text-white magnificent spiderwebby" href="#">SHOWCASE</a>
+                    <a class="nav-link magnificent spiderwebby" href="#eventInfo">EVENT INFO</a>
+                    <a class="nav-link magnificent spiderwebby" href="#showCase">SHOWCASE</a>
                 </div>
             </div>
         </div>
@@ -45,25 +45,35 @@
 
     <div class="container">
         <!-- flickering title -->
-        <div class="row m-4 text-center">
+        <div class="row m-4 p-3 text-center">
+
 
             <!-- ghost! -->
             <div class="col-md-4">
+                <div class="row text-center text-white mb-4">
+                    <h2 class="text-white magnificent" id="boo-text">CLICK BELOW!</h2>
+                </div>
+                <div class="row m-3">
+                    <div id="spooky" class="d-flex justify-content-center align-items-center">
+                        <div id="body">
+                            <div id="eyes"></div>
 
-                <div id="spooky">
-                    <div id="body">
-                        <div id="eyes"></div>
+                            <div id="mouth"></div>
 
-                        <div id="mouth"></div>
+                            <div id="feet">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
 
-                        <div id="feet">
-                            <div></div>
-                            <div></div>
-                            <div></div>
                         </div>
-
                     </div>
                 </div>
+
+                <div class="row mt-4 text-center justify-content-center">
+                    <button class="magnificent load-in-btn" id="beware">BEWARE!</button>
+                </div>
+
             </div>
 
             <!-- neon flickering title -->
@@ -73,14 +83,18 @@
                 </h1>
             </div>
         </div>
+        <!-- ending container tag -->
+    </div>
 
-
-
+    <div class="container-fluid d-none" id="cont-fluid">
+        <!-- event info start -->
+        <div class="row event-info">
+            <h1 class="magnificent text-white" id="eventInfo">EVENT INFO</h1>
+        </div>
     </div>
 
 
-    <!-- ending container tag -->
-    </div>
+
 
     <footer>
         <!-- place footer here -->
@@ -93,6 +107,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
+
+    <!-- jquery script -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
     <!-- personal script -->
     <script src="script.js"></script>

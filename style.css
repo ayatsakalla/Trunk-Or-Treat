@@ -36,9 +36,17 @@ body {
     background-size: contain;
     width: fit-content;
     background-repeat: no-repeat;
+    color: whitesmoke;
 }
 
 /* hover affect end */
+.navbar-brand {
+    color: #EB6123;
+}
+
+.nav-link {
+    color: #512888;
+}
 /* nav styling end */
 
 /* neon title styling start*/
@@ -240,3 +248,22 @@ body {
 }
 
 /* ghost end */
+.load-in-btn {
+    background-color: #EB6123;
+    width: fit-content;
+    border-radius: 50%;
+    padding: 2%;
+    border: #512888;
+    color: #512888;
+}
+
+.load-in-btn:hover {
+    background-color: #512888;
+    color: whitesmoke;
+}
+
+/* event info start */
+.event-info {
+    background-color: #EB6123;
+}
+/* event info end */
