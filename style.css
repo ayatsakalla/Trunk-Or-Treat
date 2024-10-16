@@ -319,3 +319,15 @@ body {
     background-color: #512888;
 }
 /* event info end */
+
+.carousel-fix {
+    width: 50%;
+    height: auto;
+}
+
+@media only screen and (max-width: 619px) {
+    .carousel-fix {
+        width: 70%;
+        height: auto;
+    }
+}
