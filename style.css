@@ -40,12 +40,8 @@ body {
 }
 
 /* hover affect end */
-.navbar-brand {
+.navbar-brand, .nav-link {
     color: #EB6123;
-}
-
-.nav-link {
-    color: #512888;
 }
 /* nav styling end */
 
