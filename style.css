@@ -29,57 +29,6 @@ body {
     z-index: 2;
 }
 
-<<<<<<< HEAD
-.menu {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    padding: 0;
-}
-
-.line {
-    fill: none;
-    stroke: whitesmoke;
-    stroke-width: 6;
-    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
-        stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.line1 {
-    stroke-dasharray: 60 207;
-    stroke-width: 6;
-}
-
-.line2 {
-    stroke-dasharray: 60 60;
-    stroke-width: 6;
-}
-
-.line3 {
-    stroke-dasharray: 60 207;
-    stroke-width: 6;
-}
-
-.opened .line1 {
-    stroke-dasharray: 90 207;
-    stroke-dashoffset: -134;
-    stroke-width: 6;
-}
-
-.opened .line2 {
-    stroke-dasharray: 1 60;
-    stroke-dashoffset: -30;
-    stroke-width: 6;
-}
-
-.opened .line3 {
-    stroke-dasharray: 90 207;
-    stroke-dashoffset: -134;
-    stroke-width: 6;
-}
-
-=======
 /* hover affect start */
 .spiderwebby:hover {
     background-image: url("nav/pumpkin.png");
@@ -88,8 +37,8 @@ body {
     width: fit-content;
     background-repeat: no-repeat;
 }
+
 /* hover affect end */
->>>>>>> a64a73d40dc9afb73e6ac7db6f1a7081ab8be13c
 /* nav styling end */
 
 /* neon title styling start*/
@@ -130,11 +79,7 @@ body {
 
 @keyframes flicker {
     0% {
-<<<<<<< HEAD
-        opacity: 0.2;
-=======
         opacity: 0.1;
->>>>>>> a64a73d40dc9afb73e6ac7db6f1a7081ab8be13c
     }
 
     20% {
@@ -150,11 +95,7 @@ body {
     }
 
     70% {
-<<<<<<< HEAD
-        opacity: 0.2;
-=======
         opacity: 0.4;
->>>>>>> a64a73d40dc9afb73e6ac7db6f1a7081ab8be13c
     }
 
     100% {
