@@ -50,7 +50,7 @@ body {
 }
 
 /* hover affect start */
-.spiderwebby:hover {
+.spiderwebby:hover, .spiderwebby:active {
     background-image: url("nav/pumpkin.png");
     background-position: center;
     background-size: contain;
@@ -58,6 +58,8 @@ body {
     background-repeat: no-repeat;
     color: whitesmoke;
 }
+
+
 
 /* hover affect end */
 .navbar-brand, .nav-link {
@@ -294,5 +296,26 @@ body {
 .iframey {
     height: fit-content;
     width: fit-content;
+}
+
+.more-info {
+    width: fit-content;
+    height: fit-content;
+    background-color: #512888;
+    color: whitesmoke;
+    padding: 2%;
+    border-radius: 50%;
+    border: none;
+    font-weight: bolder;
+
+}
+
+.more-info:hover {
+    background-color: #50b848;
+    color:#512888;
+}
+
+.more-information {
+    background-color: #512888;
 }
 /* event info end */

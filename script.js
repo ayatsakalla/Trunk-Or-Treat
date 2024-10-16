@@ -10,6 +10,10 @@ $(document).ready(function () {
         $('#cont-fluid').removeClass('d-none').fadeIn();
     })
 
+    $('#info-btn').on('click', () => {
+        $('#more-information').toggle().removeClass('d-none');
+    })
+
 
 
 });
