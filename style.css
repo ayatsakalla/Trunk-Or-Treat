@@ -12,6 +12,15 @@ body {
     font-family: 'magnificent';
 }
 
+@font-face {
+    font-family: 'halloween';
+    src: url('fonts/HappyHalloween.otf');
+}
+
+.halloween {
+    font-family: 'halloween';
+}
+
 /* fonts end */
 
 /* nav styling start */
