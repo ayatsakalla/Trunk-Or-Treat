@@ -1,5 +1,7 @@
 body {
     background-color: black;
+    height: 100%;
+    width: 100%;
 }
 
 /* fonts start */
@@ -19,6 +21,15 @@ body {
 
 .halloween {
     font-family: 'halloween';
+}
+
+@font-face {
+    font-family: 'feast';
+    src: url('fonts/feast-of-flesh-bb.regular.otf');
+}
+
+.feast {
+    font-family: 'feast';
 }
 
 /* fonts end */
@@ -274,5 +285,14 @@ body {
 /* event info start */
 .event-info {
     background-color: #e7733e;
+}
+
+.event {
+    color: #512888;
+}
+
+.iframey {
+    height: fit-content;
+    width: fit-content;
 }
 /* event info end */
