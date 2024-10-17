@@ -20,11 +20,11 @@ $(document).ready(function () {
 });
 
   $('.show-img').on('mouseover', function () {
-    $(this).find('.image-text').stop(true, true).fadeIn();
+    $(this).siblings('.image-text').stop(true, true).fadeIn();
 });
 
 $('.show-img').on('mouseleave', function () {
-    $(this).find('.image-text').stop(true, true).fadeOut();
+    $(this).siblings('.image-text').stop(true, true).fadeOut();
 });
 
 
