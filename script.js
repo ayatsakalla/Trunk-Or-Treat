@@ -34,7 +34,7 @@ $('.show-img').on('mouseleave', function () {
 $('.part-info').hide();
 
 $('.eventy').on('click', function() {
-    $(this).siblings('.part-info').slideToggle();
-})
+    $(this).closest('.row').next('.part-info').stop(true, true).slideToggle();
+});
 
 });
