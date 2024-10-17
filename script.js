@@ -31,5 +31,10 @@ $('.show-img').on('mouseleave', function () {
     $(this).siblings('.image-text').stop(true, true).fadeOut();
 });
 
+$('.part-info').hide();
+
+$('.eventy').on('click', () => {
+    $(this).find('.part-info').slideToggle();
+})
 
 });

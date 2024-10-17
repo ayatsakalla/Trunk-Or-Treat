@@ -2,6 +2,7 @@ body {
     background-color: black;
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 
 /* fonts start */
@@ -351,4 +352,18 @@ a.vendors:hover {
 
 .show-img {
     border-radius: 40%;
+}
+
+.participants {
+    background-color: #512888;
+}
+
+.eventy {
+    width: fit-content;
+    height: fit-content;
+    padding: 3%;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    background-color: #e7733e;
 }
