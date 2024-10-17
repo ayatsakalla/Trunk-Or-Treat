@@ -348,3 +348,7 @@ a.vendors:hover {
 .photo-gallery {
     background-color: #50b848;
 }
+
+.show-img {
+    border-radius: 40%;
+}
