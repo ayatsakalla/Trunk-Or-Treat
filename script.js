@@ -19,6 +19,14 @@ $(document).ready(function () {
     }
 });
 
+$('#image-text').hide();
+
+
+   $('.show-img').on('mouseenter', (event) => {
+          $(event.target).next().fadeIn();
+     }).on('mouseleave', (event) => {
+          $(event.target).next().fadeOut();
+     });
 
 
 });
