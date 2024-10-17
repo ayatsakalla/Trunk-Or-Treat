@@ -33,8 +33,8 @@ $('.show-img').on('mouseleave', function () {
 
 $('.part-info').hide();
 
-$('.eventy').on('click', () => {
-    $(this).find('.part-info').slideToggle();
+$('.eventy').on('click', function() {
+    $(this).siblings('.part-info').slideToggle();
 })
 
 });
