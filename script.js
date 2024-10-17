@@ -19,6 +19,10 @@ $(document).ready(function () {
     }
 });
 
+
+
+$('.image-text').hide();
+
   $('.show-img').on('mouseover', function () {
     $(this).siblings('.image-text').stop(true, true).fadeIn();
 });
