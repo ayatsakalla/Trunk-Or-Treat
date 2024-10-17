@@ -19,9 +19,6 @@ $(document).ready(function () {
     }
 });
 
-$('.image-text').hide();
-
-
   $('.show-img').on('mouseover', function () {
     $(this).find('.image-text').stop(true, true).fadeIn();
 });
