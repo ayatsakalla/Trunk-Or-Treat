@@ -331,3 +331,20 @@ body {
         height: auto;
     }
 }
+
+.sizing {
+    width: 50%;
+    height: fit-content;
+}
+
+a.vendors {
+    color: #50b848;
+}
+
+a.vendors:hover {
+    color: #e7733e;
+}
+
+.photo-gallery {
+    background-color: #50b848;
+}

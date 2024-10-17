@@ -10,9 +10,14 @@ $(document).ready(function () {
         $('#cont-fluid').removeClass('d-none').fadeIn();
     })
 
-    $('#info-btn').on('click', () => {
-        $('#more-information').toggle().removeClass('d-none');
-    })
+   $('#info-btn').on('click', () => {
+    $('#more-information').toggle().removeClass('d-none');
+    if ($('#more-information').is(':visible')) {
+        $('#info-btn').text('CLICK TO HIDE INFO');
+    } else {
+        $('#info-btn').text('CLICK TO SHOW INFO');
+    }
+});
 
 
 
