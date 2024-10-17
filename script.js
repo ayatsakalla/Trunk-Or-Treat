@@ -19,14 +19,16 @@ $(document).ready(function () {
     }
 });
 
-$('#image-text').hide();
+$('.image-text').hide();
 
 
-   $('.show-img').on('mouseenter', (event) => {
-          $(event.target).next().fadeIn();
-     }).on('mouseleave', (event) => {
-          $(event.target).next().fadeOut();
-     });
+  $('.show-img').on('mouseover', function () {
+    $(this).find('.image-text').stop(true, true).fadeIn();
+});
+
+$('.show-img').on('mouseleave', function () {
+    $(this).find('.image-text').stop(true, true).fadeOut();
+});
 
 
 });
